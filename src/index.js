@@ -1,7 +1,5 @@
-// import App from "./App";
-import './style/style.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-console.log('started 1234');//eslint-disable-line
-const arr = [1, 2, 3];
-const iAmJavascriptES6 = () => console.log(...arr);//eslint-disable-line
-iAmJavascriptES6();
+ReactDOM.render(<App />, document.getElementById('root'));
